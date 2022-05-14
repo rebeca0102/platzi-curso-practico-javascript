@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    text-align: center;
+}
+h1{
+    color: #57BC90;
+}
+h1 span{
+    color: #015249;
+}
+.card{
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    grid-template-columns: 500px 500px 500px;
+    place-items: center;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    margin: 30px;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:space-between;
+    height: 80%;
+}
+.formulario div{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: center;
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+}
+.formulario input{
+    border-radius: 10px;
+    height: 30px;
+    background-color: rgb(0, 0, 0, .2);
+    border: 1px solid white;
+}
+.label{
+    margin-bottom: 20px;
+}
+.boton{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+.primer-card{
+    background-color: #77C9D4;
+}
+.segundo-card{
+    background-color: #57BC90;
+}
+.tercer-card{
+    background-color: #015249;
+}
+.btn-uno{
+    color: #77C9D4;
+}
+.btn-dos{
+    color: #57BC90;
+}
+.btn-tres{
+    color: #015249;
+}
